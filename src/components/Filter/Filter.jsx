@@ -7,7 +7,7 @@ function Filter({ onFilter, filter }) {
   };
   return (
     <StyledFilter>
-      <p>Find contacts by name</p>
+      <p>Find contacts by name </p>
       <input onChange={handleInputChange} value={filter} type="text" />
     </StyledFilter>
   );
